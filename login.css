@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url('your-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    min-height: 100vh;
+}
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    height: 45px;
+    border-radius: 25px;
+}
+
+.btn {
+    border-radius: 25px;
+}
